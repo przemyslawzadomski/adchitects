@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/adchitects/static/css/main.74b76585.css",
+    "main.js": "/adchitects/static/js/main.0f57f7c4.js",
+    "index.html": "/adchitects/index.html",
+    "main.74b76585.css.map": "/adchitects/static/css/main.74b76585.css.map",
+    "main.0f57f7c4.js.map": "/adchitects/static/js/main.0f57f7c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74b76585.css",
+    "static/js/main.0f57f7c4.js"
+  ]
+}
