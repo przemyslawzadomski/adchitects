@@ -4,7 +4,7 @@ import { Button } from "../Button/Button";
 export function Header ({ pages }) {
     return (
         <div className="header">
-            <img src="/assets/logo.svg" alt="Adchitects Logo"/>
+            <img src="./assets/logo.svg" alt="Adchitects Logo"/>
 
             <div className="menu">
                 <ul>
