@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/adchitects/static/css/main.74b76585.css",
-    "main.js": "/adchitects/static/js/main.a0dc3ff6.js",
+    "main.js": "/adchitects/static/js/main.d16cc072.js",
     "index.html": "/adchitects/index.html",
     "main.74b76585.css.map": "/adchitects/static/css/main.74b76585.css.map",
-    "main.a0dc3ff6.js.map": "/adchitects/static/js/main.a0dc3ff6.js.map"
+    "main.d16cc072.js.map": "/adchitects/static/js/main.d16cc072.js.map"
   },
   "entrypoints": [
     "static/css/main.74b76585.css",
-    "static/js/main.a0dc3ff6.js"
+    "static/js/main.d16cc072.js"
   ]
 }
