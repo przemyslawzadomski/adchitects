@@ -4,10 +4,12 @@ import { Hero } from "./components/Hero/Hero";
 import {Newsletter} from "./components/Newsletter/Newsletter";
 import React, { useEffect, useState} from 'react';
 
+const { REACT_APP_API_URL, REACT_APP_USER, REACT_APP_PASSWORD } = process.env;
+
 const queryApi = (path) => {
-    const url = 'https://adchitects-cms.herokuapp.com' + path;
-    const username = 'adchitects';
-    const password = 'jsrulezzz';
+    const url = REACT_APP_API_URL + path;
+    const username = REACT_APP_USER;
+    const password = REACT_APP_PASSWORD;
     const headers = new Headers();
     headers.append('Authorization', 'Basic ' + btoa(username + ":" + password))
     return fetch(url, { method: 'GET', headers }).then(response => {
@@ -23,7 +25,6 @@ function App() {
     const [sections, setSections] = useState([]);
     useEffect(() => {
         queryApi('/pages').then(setPages);
-
     }, []);
 
     useEffect(() => {

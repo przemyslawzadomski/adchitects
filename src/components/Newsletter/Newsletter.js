@@ -10,14 +10,11 @@ const subscribeToNewsletter = (email) => {
     headers.append('Authorization', 'Basic ' + btoa(username + ":" + password));
     headers.append('Content-Type', 'application/json')
     return fetch(url, { method: 'POST', headers, body: JSON.stringify({ email }) }).then(response => {
-        console.log(response);
         if (response.status === 200) {
-            console.log('asd')
             return response.json().then(data => ({ message: data.message, status: 'success'}))
         }
         if (response.status === 400) {
             return response.json().then(data => ({ message: data.message, status: 'fail'}))
-
         }
         throw new Error('Response not ok')
     })

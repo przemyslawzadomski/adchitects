@@ -4,12 +4,21 @@
   background-color: $black;
   padding: 8rem 17.5rem 8rem 10.75rem;
 
+  @media screen and (max-width: 768px) {
+    padding: 2rem 1.5rem;
+  }
+
   &__text {
     font-size: 1.5rem;
     font-weight: $regular;
     color: $lightgrey;
 
     margin: 4.25rem 0 6rem;
+
+    @media screen and (max-width: 768px) {
+      margin: 2.25rem 0 3rem;
+      font-size: 1rem;
+    }
   }
 
   &__author {
