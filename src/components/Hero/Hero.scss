@@ -1,0 +1,21 @@
+@import '../../variables';
+
+.hero {
+  display: flex;
+  gap: 1.5rem;
+
+  padding: 8rem 10.75rem 9.5rem;
+
+  &__text {
+    width: 80%;
+
+    font-weight: $medium;
+    font-size: 3rem;
+  }
+
+  &__img {
+    width: 480px;
+    height: 384px;
+    background-size: 100%;
+  }
+}
